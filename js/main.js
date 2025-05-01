@@ -93,10 +93,11 @@ function deleteTask(event) {
   console.log(tasks);
 
     parentNode.remove();
-  }
-
+    
   checkEmptyList ();
   saveToLocalStorage();
+
+  }
 
 }
 
